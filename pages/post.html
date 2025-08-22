@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Apartado de noticias</title>
+    <link rel="stylesheet" href="/pages/css/post.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500&display=swap" rel="stylesheet">
+    
+
+</head>
+<body>
+    <div class="welcome">
+
+
+        <button id="btnlogout">Cerrar sesión 🔐</button>
+        <button id="btnlog_register">Registrarse 🔑</button>
+
+        
+
+
+    </div> 
+    <div class="information"> 
+
+
+<form id="searchForm">
+  <input type="text" id="search" name="search" placeholder="Buscar usuario" />
+  <button type="submit">Buscar</button>
+  <button id="btnfriend">Amigos</button>
+  <button id="btngopage">Ir a mi perfil</button>
+  <div id="adminControls" style="margin-top: 10px;"></div>
+</form>
+
+<div id="friendModal" style="display: none; background-color: #000000;"></div>
+
+<div id="results"></div>
+
+
+        <!--Resultados disponibles de la busquedad de clanes-->
+    </div>
+
+    <div>
+        <h2>Publicaciones de amigos</h2>
+        <p>Agrega amigos para ver sus publicaciones</p>
+
+    </div>
+
+    <div id="friends-posts-container" style="height: 400px; overflow-y: auto; border: 1px solid #000000; padding: 10px; margin-top: 20px;">
+  <!-- Posts aparecerán aquí -->
+</div>
+
+    
+
+    <div>
+
+        <!--Aqui se pondran las publicaciones-->
+        
+
+    </div>
+
+
+    <img src="/pages/img/final.png" alt="final">
+</body>
+
+<script src="/pages/js/post.js"></script>
+
+
+</html>
